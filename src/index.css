@@ -1,13 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn {
+    @apply text-lg text-white font-medium leading-none bg-secondary py-[21px] px-[39px] border border-white outline outline-secondary outline-4;
+  }
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Vollkorn", serif;
+}
 .maxWidth {
   max-width: 1250px !important;
   /* padding: 0 20px !important; */
 }
 
-.btn {
+/* .btn {
   background-color: #e5745d;
   color: #fff;
 
@@ -23,18 +40,18 @@
   font-weight: 500;
   line-height: 12px;
   outline: #fff;
-}
+} */
 
 .borders {
   border: 4px solid red;
 }
 
-.primary {
+/* .primary {
   color: #e5745d;
 }
 .secondary {
   color: #00413d;
-}
+} */
 
 .heading-baner-text {
   color: #fff;

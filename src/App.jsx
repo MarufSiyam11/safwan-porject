@@ -1,9 +1,14 @@
-import Home from "./components/pages/home/Home";
+import Banner from "./components/banner/Banner";
+import Navbar from "./components/navbar/Navbar";
+import Services from "./components/services/Services";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <Navbar></Navbar>
+      <Banner />
+
+      <Services />
     </div>
   );
 };
