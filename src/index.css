@@ -19,6 +19,9 @@ h5,
 h6 {
   font-family: "Vollkorn", serif;
 }
+p {
+  @apply text-base text-primary_text leading-normal;
+}
 .maxWidth {
   max-width: 1250px !important;
   /* padding: 0 20px !important; */

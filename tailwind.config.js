@@ -12,6 +12,9 @@ export default {
         primary_text: "#00413D",
         secondary: "#E5745D",
       },
+      boxShadow: {
+        "box-shadaw": "8px 8px 20px 13px rgba(147, 147, 147,0.13)",
+      },
     },
     container: {
       center: true,
