@@ -3,7 +3,7 @@ import img1 from "../../assets/image.png";
 import img2 from "../../assets/image (2).png";
 const About = () => {
   return (
-    <section>
+    <section className="mt-20">
       <div className="container">
         <div className="grid grid-cols-2 gap-6">
           <div className="grid grid-cols-[1fr_170px] gap-6">
