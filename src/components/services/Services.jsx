@@ -7,7 +7,12 @@ const Services = () => {
   return (
     <section className="pt-20">
       <div className="container">
-        <SectionTitle />
+        <SectionTitle
+          title="MY SERVICES"
+          des="Provide Wide Range of
+Digital Services"
+          maxWidth="max-w-[517px]"
+        />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-6">
           <ServiceCard
             title={"Ui/Ux Design"}

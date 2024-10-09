@@ -3,7 +3,7 @@ const ContactFrom = () => {
   return (
     <section className="mt-20">
       <div className="container">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="w-full">
             <img
               className="w-[470px] h-[586px] object-cover"
