@@ -1,7 +1,7 @@
 const SectionTitle = ({ center = true, title, des, maxWidth }) => {
   return (
     <div className={center && "text-center"}>
-      <h4 className="text-lg md:text-xl font-medium text-secondary pb-2">
+      <h4 className="text-lg md:text-xl font-medium text-secondary pb-2 inline-block ml-[52px] relative after_before">
         {title}
       </h4>
       <h2

@@ -7,6 +7,10 @@
   .btn {
     @apply text-lg text-white font-medium leading-none bg-secondary py-[21px] px-[39px] border border-white outline outline-secondary outline-4;
   }
+  .after_before {
+    @apply after:content-[''] after:absolute after:bottom-[22px] after:right-[calc(100%+12px)] after:w-10 after:h-[2px] after:bg-secondary 
+    before:content-[''] before:absolute before:bottom-[20px] before:right-[calc(100%+11px)] before:w-[6px] before:h-[6px] before:rounded-full before:bg-secondary;
+  }
 }
 body {
   font-family: "Jost", sans-serif;

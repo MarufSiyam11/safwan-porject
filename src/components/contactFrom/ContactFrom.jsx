@@ -1,20 +1,18 @@
-import img from "../../assets/blank.png";
+import img from "../../assets/image (12).png";
 const ContactFrom = () => {
   return (
     <section className="mt-20">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="w-full">
-            <img
-              className="w-[470px] h-[586px] object-cover"
-              src={img}
-              alt=""
-            />
+            <img className="w-[300] h-[586px] object-cover" src={img} alt="" />
           </div>
 
           <div className="min-h-screen flex items-center justify-center px-4">
             <div className="w-full max-w-[670px] h-auto">
-              <h4 className="text-xl text-[#E5745D] ">Get In Touch</h4>
+              <h4 className="text-xl text-[#E5745D] inline-block relative pb-2 ml-[52px] after_before">
+                Get In Touch
+              </h4>
               <h2 className="text-3xl  mb-6">Feel Free to Contact</h2>
               <div>
                 <form action="">
