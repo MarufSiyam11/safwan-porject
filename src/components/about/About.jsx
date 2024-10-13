@@ -3,6 +3,7 @@ import img1 from "../../assets/image (12).png";
 import img2 from "../../assets/image (2).png";
 import Section from "../ui/section/Section";
 import SectionTitle from "../section-Title/SectionTitle";
+import Skill from "./Skill";
 const About = () => {
   return (
     <Section>
@@ -46,6 +47,7 @@ With Scalable Solutions"
           </div>
         </div>
       </div>
+      <Skill />
     </Section>
   );
 };
