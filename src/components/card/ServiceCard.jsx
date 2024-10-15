@@ -1,7 +1,7 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 const ServiceCard = ({ title, des, icon }) => {
   return (
-    <div className="mt-10 py-[50px] px-[30px] hover:focus:200px bg-white shadow-box-shadaw rounded-[10px]">
+    <div className="mt-10 py-[50px] px-[30px]  bg-white shadow-box-shadaw rounded-[10px]">
       <div>
         <img src={icon} alt="icon" />
       </div>
