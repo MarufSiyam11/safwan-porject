@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa6";
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
   return (
     <div onClick={onClick}>
       <FaArrowRight className="text-2xl absolute top-[-50px] h-[44px] w-[44px] border-2 border-gray-200 right-0 hover:text-white hover:bg-secondary text-black bg-white" />
@@ -18,7 +18,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
   return (
     <div onClick={onClick}>
       {" "}
