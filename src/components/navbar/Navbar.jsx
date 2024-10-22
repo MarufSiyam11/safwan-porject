@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../assets/logo.svg";
+import logo2 from "../../assets/ss.png";
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("Home"); // Default active item
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState("");
@@ -9,10 +9,9 @@ const Navbar = () => {
     <nav className="maxWidth mx-auto py-4 px-4 md:px-0">
       <div className="flex justify-between items-center">
         {/* Logo Section */}
-        <div className="flex items-center">
-          <span className="text-[#00413d] font-medium ml-2">
-            <img src={logo} alt="" />
-          </span>
+        <div className="w-[122px]   h-[40px] flex ">
+          <img className=" " src={logo2} alt="" />
+          <span className="text-3xl  text-primary_text font-bold ">Siyam</span>
         </div>
 
         {/* Menu for Medium (md) and Larger Screens */}

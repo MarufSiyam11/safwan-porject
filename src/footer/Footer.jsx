@@ -1,4 +1,3 @@
-import logo from "../assets/slogoo-removebg-preview.png";
 import logo2 from "../assets/ss.png";
 import { TiSocialSkype } from "react-icons/ti";
 import { SlSocialInstagram } from "react-icons/sl";
@@ -6,7 +5,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import logo3 from "../assets/Rectangle 4299.png";
 const Footer = () => {
   return (
-    <section className="bg-[#00413d] max-width h-[474px] mt-20   ">
+    <section className="bg-[#00413d] max-width  h-[474px] mt-20   ">
       <div className=" flex justify-center">
         <div className="w-[122px] mt-16 h-[40px] flex ">
           <img className="bg-primary_text " src={logo2} alt="" />
@@ -15,7 +14,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="text-white flex mt-10 justify-center text-center gap-6">
+      <div className="text-white flex flex-wrap mt-10 justify-center text-center gap-6">
         <h4>Home</h4>
         <img src={logo3} alt="" />
         <h4>About</h4>
