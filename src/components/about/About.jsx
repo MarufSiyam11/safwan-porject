@@ -1,4 +1,6 @@
 import img from "../../assets/image (22).png";
+import img11 from "../../assets/banner.png";
+
 import img1 from "../../assets/image (12).png";
 import img2 from "../../assets/image (2).png";
 import Section from "../ui/section/Section";
@@ -10,7 +12,7 @@ const About = () => {
       <div className="grid  grid-cols-1 md:grid-cols-2 gap-6">
         <div className="grid grid-cols-[1fr_170px] gap-6">
           <div className="w-full">
-            <img className="w-full h-full object-cover" src={img} alt="" />
+            <img className="w-full h-full object-cover" src={img11} alt="" />
           </div>
           <div className="grid grid-cols-1 gap-6">
             <div>

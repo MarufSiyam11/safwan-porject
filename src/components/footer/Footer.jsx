@@ -1,8 +1,8 @@
-import logo2 from "../assets/ss.png";
+import logo2 from "../../assets/ss.png";
 import { TiSocialSkype } from "react-icons/ti";
 import { SlSocialInstagram } from "react-icons/sl";
 import { SlSocialLinkedin } from "react-icons/sl";
-import logo3 from "../assets/Rectangle 4299.png";
+import logo3 from "../../assets/Rectangle 4299.png";
 const Footer = () => {
   return (
     <section className="bg-[#00413d] max-width  h-[474px] mt-20   ">
