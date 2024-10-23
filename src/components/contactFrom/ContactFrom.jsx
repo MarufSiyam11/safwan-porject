@@ -1,7 +1,7 @@
 import img from "../../assets/image (12).png";
 const ContactFrom = () => {
   return (
-    <section className="mt-20">
+    <section className="mt-28">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="w-full">

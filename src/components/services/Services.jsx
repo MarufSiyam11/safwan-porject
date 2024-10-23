@@ -5,7 +5,7 @@ import mobileApp from "../../assets/booking 1 (Traced).png";
 import web from "../../assets/web-design 1 (Traced).png";
 const Services = () => {
   return (
-    <section className="pt-20">
+    <section className="mt-28">
       <div className="container">
         <SectionTitle
           title="MY SERVICES"

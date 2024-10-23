@@ -5,7 +5,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import logo3 from "../../assets/Rectangle 4299.png";
 const Footer = () => {
   return (
-    <section className="bg-[#00413d] max-width  h-[474px] mt-20   ">
+    <section className="bg-[#00413d] max-width  h-[474px] mt-28   ">
       <div className=" flex justify-center">
         <div className="w-[122px] mt-16 h-[40px] flex ">
           <img className="bg-primary_text " src={logo2} alt="" />
