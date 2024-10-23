@@ -1,6 +1,6 @@
 const PortfolioCard = ({ data }) => {
   return (
-    <div className="w-350px md:w-[570px] h-[520px] mx-auto ">
+    <div className="w-350px md:w-[560px] h-[520px] mx-auto ">
       <div>
         <img className="w-[570px] h-[420px]" src={data.image} alt="" />
       </div>
@@ -8,7 +8,7 @@ const PortfolioCard = ({ data }) => {
         <h3 className="text-white text-2xl">{data.title}</h3>
         <p className="text-white ">{data.des}</p>
         {/* <p className="text-white">{data.category}</p> */}
-        <a href="">{data.link}</a>
+        <a href={data.link}>{data.link}</a>
       </div>
     </div>
   );

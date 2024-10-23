@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Portfolio from "./components/portfolio/Portfolio";
 import Projects from "./components/projects/Projects";
 import Services from "./components/services/Services";
+import Testimonial from "./components/testimonial/Testimonial";
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Projects />
       <Portfolio />
+      <Testimonial />
       <ContactFrom />
       <Blog />
       <Footer />
