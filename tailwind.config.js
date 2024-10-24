@@ -14,6 +14,7 @@ export default {
       },
       boxShadow: {
         "box-shadaw": "8px 8px 20px 13px rgba(147, 147, 147,0.13)",
+        "testimonial-shadaw": "6px 6px 10px 0px rgba(227, 40, 71,0.08)",
       },
     },
     container: {
