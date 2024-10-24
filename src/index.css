@@ -30,7 +30,23 @@ p {
   max-width: 1250px !important;
   /* padding: 0 20px !important; */
 }
-
+.shape::after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  background: transparent;
+  border-top: 25px solid #fff;
+  border-right: 20px solid transparent;
+  border-bottom: 0 solid purple;
+  border-left: 11px solid transparent;
+  bottom: 0;
+  left: 88px;
+  transform: translateY(100%);
+}
+.testiminial_shadow {
+  filter: drop-shadow(6px 6px 10px rgba(227, 40, 71, 0.08));
+}
 /* .btn {
   background-color: #e5745d;
   color: #fff;
